@@ -59,18 +59,16 @@ public class LoopJuego extends AnimationTimer{
         Shape interseccion = SVGPath.intersect(sRectangulo, sObstaculo);
         if(interseccion.getBoundsInLocal().getWidth()!=-1){
             stop();
-        }
-        
-        
+        };
         if(y%10==0){
             x++;
             y++;
         }else{
             y++;
-        }
+        };
         if(x==5){
             x=0;
-        }
+        };
         
 
     }
