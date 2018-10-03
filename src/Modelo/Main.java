@@ -22,10 +22,10 @@ public class Main extends Application{
         //Layout
        Pane panel = new Pane();
        Canvas canvas = 
-               new Canvas(500,500);
+               new Canvas(1024,512);
        panel.getChildren().add(canvas);
        Scene scene = 
-               new Scene(panel,1500,1500,Color.DARKSEAGREEN);
+               new Scene(panel,1024,512,Color.DARKSEAGREEN);
        //Referencia del lapiz para dibujar
        GraphicsContext gc = 
                canvas.getGraphicsContext2D();
